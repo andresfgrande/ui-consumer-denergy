@@ -138,7 +138,7 @@ export default function MonthConsumption({setYear, setMonth, setTotalUnpaid, set
   return(
     <div className="month--container--consumption">
         <div className="month--consumption">
-                <h1> Energy consumption - {getMonthName(month)} {year}</h1>
+                <h1 className="main--title"> Energy consumption - {getMonthName(month)} {year}</h1>
                 <span className="button" onClick={() => goToCurrentMonth()}>
                 View current month
               </span>

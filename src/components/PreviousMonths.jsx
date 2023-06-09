@@ -54,7 +54,7 @@ export default function PreviousMonths({setYear, setMonth, setTotalConsumption, 
 
     return(
         <div className="previous--months--container">
-                  <h1>Previous months</h1>
+                  <h1 className="main--title">Previous months</h1>
                   <table className="consumption--table">
             <thead>
               <tr>
