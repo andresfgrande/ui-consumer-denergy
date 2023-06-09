@@ -72,12 +72,12 @@ export default function PreviousMonths({setYear, setMonth, setTotalConsumption, 
                   <td>{Number.parseFloat(row.bill/ethPrice).toFixed(4)} ETH = ${Number.parseFloat(row.bill).toFixed(2)} </td>
                   <td>{row.paid ? 
                     <img 
-                    src="./src/assets/paid.png"
+                    src="../public/paid.png"
                     className="payment--image--table"
                     />
                   : 
                   <img 
-                  src="./src/assets/pending-payment.png"
+                  src="../public/pending-payment.png"
                   className="pending--payment--image--table"
                   />
                   }</td>
