@@ -155,7 +155,7 @@ export default function MonthConsumption({setYear, setMonth, setTotalUnpaid, set
               <div className="month--paid">
                 <h2 className="title--paid">Paid</h2>
                 <img 
-                src="../public/paid.png"
+                src="/paid.png"
                 className="payment--image"
                 />
               </div>
@@ -165,7 +165,7 @@ export default function MonthConsumption({setYear, setMonth, setTotalUnpaid, set
                 {processing ? 
                 <div>
                   <img 
-                src="../public/processing-payment.png"
+                src="/processing-payment.png"
                 className="payment--image--processing"
                 />
                 <p className="text--processing">Processing payment...</p>
@@ -173,7 +173,7 @@ export default function MonthConsumption({setYear, setMonth, setTotalUnpaid, set
                 
                 :
                 <img 
-                  src="../public/payment.png"
+                  src="/payment.png"
                   className="payment--image"
                   />
                 }
