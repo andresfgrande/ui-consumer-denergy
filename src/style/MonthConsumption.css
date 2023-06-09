@@ -214,6 +214,7 @@ span.button:active {
   }
 }
 
+
 @media screen and (max-width: 500px) {
   .main--title{
     font-size: 1.5rem
